@@ -6,7 +6,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
+        "univers": ["var(--font-univers)", ...fontFamily.sans],
+        "univers-condensed": ["var(--font-univers-condensed)", ...fontFamily.sans],
       },
     },
   },
