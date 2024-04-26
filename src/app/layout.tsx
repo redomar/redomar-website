@@ -1,13 +1,12 @@
 import { univers, universCondensed } from "@/styles/fonts";
 import "@/styles/globals.css";
 
-import { Inter } from "next/font/google";
 
 
 export const metadata = {
   title: "Mohamed Omar - Software Engineer",
   description: "Mohamed Omar's personal website",
-  // icons: [{ rel: "icon", url: "/favicon.ico" }],
+  icons: [{ rel: "icon", url: "/logo.svg" }],
 };
 
 export default function RootLayout({
@@ -17,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${univers.className} ${univers.variable} ${universCondensed.variable}`}>{children}</body>
+      <body className={`bg-zinc-900 text-zinc-50 ${univers.className} ${univers.variable} ${universCondensed.variable} `}>{children}</body>
     </html>
   );
 }
