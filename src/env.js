@@ -17,6 +17,8 @@ export const env = createEnv({
    */
   client: {
     // NEXT_PUBLIC_CLIENTVAR: z.string(),
+    // NEXT_PUBLIC_UPLOADTHING_SECRET: z.string(),
+    // NEXT_PUBLIC_UPLOADTHING_APP_ID: z.string(),
   },
 
   /**
