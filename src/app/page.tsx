@@ -8,7 +8,7 @@ export const dynamic = "force-dynamic";
 export default function HomePage() {
   return (
     <main >
-        <Image src="/logo.svg" width={50} height={0} alt="logo" className="mx-auto py-10" />
+        <Image src="/logo.svg" width={70} height={0} alt="logo" className="mx-auto py-10" />
         <div className="min-h-screen px-4 pb-12">
       <div className="mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-4">
         <HeaderBlock />
@@ -23,8 +23,6 @@ export default function HomePage() {
         <LocationBlock />
         <TextBlock />
         <ContactBlock />
-        <SocialBlock />
-        <ExperianceBlock />
       </div>
       </div>
     </main>
